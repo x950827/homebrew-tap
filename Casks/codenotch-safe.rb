@@ -8,6 +8,7 @@ cask "codenotch-safe" do
   homepage "https://github.com/x950827/codenotch-safe"
 
   depends_on macos: :sequoia
+
   app "Codenotch Safe.app"
 
   caveats <<~EOS
