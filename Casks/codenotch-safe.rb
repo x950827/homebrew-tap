@@ -12,7 +12,7 @@ cask "codenotch-safe" do
   desc "Audited Claude, Cursor, and Codex usage monitor"
   homepage "https://github.com/x950827/codenotch-safe"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   container type: :dmg
   app "Codenotch Safe.app"
