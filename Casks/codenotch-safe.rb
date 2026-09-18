@@ -1,6 +1,6 @@
 cask "codenotch-safe" do
-  version "1.6.0-safe.13"
-  sha256 "57b9327ccdf6c45cc474535678a073da7aa89099c99af03bbc383c6f7f1ac4b9"
+  version "1.6.0-safe.14"
+  sha256 "b906604733182407ff463f849b40c74b9eed1af6827304d9520d7853f65b8a44"
 
   url "https://github.com/x950827/codenotch-safe/releases/download/v#{version}/Codenotch-Safe-#{version}-universal.dmg"
   name "Codenotch Safe"
