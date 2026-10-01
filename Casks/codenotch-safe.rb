@@ -1,10 +1,10 @@
 cask "codenotch-safe" do
-  version "1.6.0-safe.14"
-  sha256 "b906604733182407ff463f849b40c74b9eed1af6827304d9520d7853f65b8a44"
+  version "1.6.0-safe.15"
+  sha256 "71ec9ae46a8d65ebc399637ef21c113ba26daf3eb427d07371367744c78e29ca"
 
   url "https://github.com/x950827/codenotch-safe/releases/download/v#{version}/Codenotch-Safe-#{version}-universal.dmg"
   name "Codenotch Safe"
-  desc "Audited Claude, Cursor, and Codex usage monitor"
+  desc "Audited Claude, Cursor, Codex, and OpenCode Go usage monitor"
   homepage "https://github.com/x950827/codenotch-safe"
 
   depends_on macos: :sequoia
